@@ -1,0 +1,139 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: darkred;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:focus {
+  outline: 1px solid burlywood;
+}
+
+#inicio h2,
+p {
+  text-align: center;
+}
+
+#tendencias h2 {
+  text-align: center;
+}
+
+
+.tendencia-card {
+  border: 1px solid lightslategrey;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.tendencia-card img {
+  width: 100%;
+
+}
+
+#productos h2 {
+  text-align: center;
+}
+
+.producto {
+  display: flex;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.producto2 {
+  display: flex;
+  float: right;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+.producto img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.producto2 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+
+#anuncio {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  background-color: lightcoral;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 2;
+}
+
+.info-product {
+  flex: 1;
+}
+
+.info-product2 {
+  flex: 1;
+}
+
+#inicio {
+  position: relative;
+}
+
+.btn-ver,
+.btn-comprar {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.btn-comprar {
+  background-color: lightcoral;
+  bottom: 10px;
+  right: 5px;
+  left: 0px;
+  position: relative;
+}
